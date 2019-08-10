@@ -1,0 +1,39 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+
+}
+body { 
+    background: url(../../assets/images/GemBackground.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #instructionArea {
+      margin-top: 15px;
+      margin-bottom: 20px;
+      border: 1px solid black;
+      padding: 2%;
+
+  }
+  #scoreArea {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 2%;
+
+}
+.value {
+    background-color: #e57373;
+    padding:2%;
+}
+.score {
+    background-color: #9fa8da;
+    padding:2%;
+}

@@ -25,8 +25,8 @@ $(document).ready(function () {
     // BLUE
     $('#blueGem').on('click', function () {
         score = score + blueGem; // add the  blueGem random value to the score
-        console.log("New playerScore= " + blueGem); // Does it work?
-        $('#totalScore').text(score); // Let's update the score text
+        console.log("New playerScore= " + score); // Does it work?
+        $('#playerScore').text(score); // Let's update the score text
         if (score === random) { // If the user score equals the random number
             victory();  // Run the victory function defined later
         }
@@ -37,8 +37,8 @@ $(document).ready(function () {
     // RED
     $('#redGem').on('click', function () {
         score = score + redGem; // add the  redGem random value to the score
-        console.log("New score= " + redGem); // Does it work?
-        $('#totalScore').text(score); // Let's update the score text
+        console.log("New score= " + score); // Does it work?
+        $('#playerScore').text(score); // Let's update the score text
         if (score === random) { // If the user score equals the random number
             victory();  // Run the victory function defind later
         }
@@ -49,8 +49,8 @@ $(document).ready(function () {
     // GREEN
     $('#greenGem').on('click', function () {
         score = score + greenGem; // add the  greenGem random value to the score
-        console.log("New score= " + greenGem); // Does it work?
-        $('#totalScore').text(score); // Let's update the score text
+        console.log("New score= " + score); // Does it work?
+        $('#playerScore').text(score); // Let's update the score text
         if (score === random) { // If the user score equals the random number
             victory();  // Run the victory function defind later
         }
@@ -61,8 +61,8 @@ $(document).ready(function () {
     // Yellow
     $('#yellowGem').on('click', function () {
         score = score + yellowGem; // add the  yellowGem random value to the score
-        console.log("New score= " + yellowGem); // Does it work?
-        $('#totalScore').text(score); // Let's update the score text
+        console.log("New score= " + score); // Does it work?
+        $('#playerScore').text(score); // Let's update the score text
         if (score === random) { // If the user score equals the random number
             victory();  // Run the victory function defind later
         }
@@ -94,7 +94,7 @@ $(document).ready(function () {
     function defeat(){
 		alert("You are defeated");
 		losses++;
-		$('#numberOfLosses').text(losses);
+		$('#losses').text(losses);
 		reset();
 	}
 

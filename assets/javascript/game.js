@@ -74,15 +74,15 @@ $(document).ready(function () {
         // RESET
         	//Function for game reset
 	function reset(){
-		Random=Math.floor(Math.random()*101+19);
-		console.log(Random)
-		$('#randomNumber').text(random);
+		random=Math.floor(Math.random()*101+19);
+		console.log(random)
+		$('#currentValue').text(random);
 		blueGem=Math.floor(Math.random()*12+1);
 		redGem=Math.floor(Math.random()*12+1);
 		greenGem=Math.floor(Math.random()*12+1);
 		yellowGem=Math.floor(Math.random()*12+1);
 		score=0;
-		$('#totalScore').text(score);
+		$('#playerScore').text(score);
 	}
         // WIN function
 	function victory(){

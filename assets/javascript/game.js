@@ -76,7 +76,7 @@ $(document).ready(function () {
 	function reset(){
 		Random=Math.floor(Math.random()*101+19);
 		console.log(Random)
-		$('#randomNumber').text(Random);
+		$('#randomNumber').text(random);
 		blueGem=Math.floor(Math.random()*12+1);
 		redGem=Math.floor(Math.random()*12+1);
 		greenGem=Math.floor(Math.random()*12+1);
